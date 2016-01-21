@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D19EEE391C50884000596EC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE381C50884000596EC7 /* main.m */; };
+		D19EEE3C1C50884000596EC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE3B1C50884000596EC7 /* AppDelegate.m */; };
+		D19EEE3F1C50884000596EC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE3E1C50884000596EC7 /* ViewController.m */; };
+		D19EEE421C50884000596EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19EEE401C50884000596EC7 /* Main.storyboard */; };
+		D19EEE451C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE431C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld */; };
+		D19EEE471C50884000596EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19EEE461C50884000596EC7 /* Assets.xcassets */; };
+		D19EEE4A1C50884000596EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19EEE481C50884000596EC7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D19EEE341C50884000596EC7 /* SecureDataStorageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureDataStorageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19EEE381C50884000596EC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D19EEE3A1C50884000596EC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D19EEE3B1C50884000596EC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D19EEE3D1C50884000596EC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D19EEE3E1C50884000596EC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D19EEE411C50884000596EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D19EEE441C50884000596EC7 /* SecureDataStorageApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecureDataStorageApp.xcdatamodel; sourceTree = "<group>"; };
+		D19EEE461C50884000596EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19EEE491C50884000596EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D19EEE4B1C50884000596EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19EEE311C50884000596EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D19EEE2B1C50884000596EC7 = {
+			isa = PBXGroup;
+			children = (
+				D19EEE361C50884000596EC7 /* SecureDataStorageApp */,
+				D19EEE351C50884000596EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D19EEE351C50884000596EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19EEE341C50884000596EC7 /* SecureDataStorageApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19EEE361C50884000596EC7 /* SecureDataStorageApp */ = {
+			isa = PBXGroup;
+			children = (
+				D19EEE3A1C50884000596EC7 /* AppDelegate.h */,
+				D19EEE3B1C50884000596EC7 /* AppDelegate.m */,
+				D19EEE3D1C50884000596EC7 /* ViewController.h */,
+				D19EEE3E1C50884000596EC7 /* ViewController.m */,
+				D19EEE401C50884000596EC7 /* Main.storyboard */,
+				D19EEE461C50884000596EC7 /* Assets.xcassets */,
+				D19EEE481C50884000596EC7 /* LaunchScreen.storyboard */,
+				D19EEE4B1C50884000596EC7 /* Info.plist */,
+				D19EEE431C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld */,
+				D19EEE371C50884000596EC7 /* Supporting Files */,
+			);
+			path = SecureDataStorageApp;
+			sourceTree = "<group>";
+		};
+		D19EEE371C50884000596EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D19EEE381C50884000596EC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19EEE331C50884000596EC7 /* SecureDataStorageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19EEE4E1C50884000596EC7 /* Build configuration list for PBXNativeTarget "SecureDataStorageApp" */;
+			buildPhases = (
+				D19EEE301C50884000596EC7 /* Sources */,
+				D19EEE311C50884000596EC7 /* Frameworks */,
+				D19EEE321C50884000596EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureDataStorageApp;
+			productName = SecureDataStorageApp;
+			productReference = D19EEE341C50884000596EC7 /* SecureDataStorageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19EEE2C1C50884000596EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kate Krasnova";
+				TargetAttributes = {
+					D19EEE331C50884000596EC7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VFT96SPKF7;
+					};
+				};
+			};
+			buildConfigurationList = D19EEE2F1C50884000596EC7 /* Build configuration list for PBXProject "SecureDataStorageApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19EEE2B1C50884000596EC7;
+			productRefGroup = D19EEE351C50884000596EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19EEE331C50884000596EC7 /* SecureDataStorageApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19EEE321C50884000596EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19EEE4A1C50884000596EC7 /* LaunchScreen.storyboard in Resources */,
+				D19EEE471C50884000596EC7 /* Assets.xcassets in Resources */,
+				D19EEE421C50884000596EC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19EEE301C50884000596EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19EEE451C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld in Sources */,
+				D19EEE3F1C50884000596EC7 /* ViewController.m in Sources */,
+				D19EEE3C1C50884000596EC7 /* AppDelegate.m in Sources */,
+				D19EEE391C50884000596EC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D19EEE401C50884000596EC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19EEE411C50884000596EC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D19EEE481C50884000596EC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19EEE491C50884000596EC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D19EEE4C1C50884000596EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19EEE4D1C50884000596EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19EEE4F1C50884000596EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecureDataStorageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Kate.SecureDataStorageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D19EEE501C50884000596EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecureDataStorageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Kate.SecureDataStorageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19EEE2F1C50884000596EC7 /* Build configuration list for PBXProject "SecureDataStorageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19EEE4C1C50884000596EC7 /* Debug */,
+				D19EEE4D1C50884000596EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19EEE4E1C50884000596EC7 /* Build configuration list for PBXNativeTarget "SecureDataStorageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19EEE4F1C50884000596EC7 /* Debug */,
+				D19EEE501C50884000596EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D19EEE431C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D19EEE441C50884000596EC7 /* SecureDataStorageApp.xcdatamodel */,
+			);
+			currentVersion = D19EEE441C50884000596EC7 /* SecureDataStorageApp.xcdatamodel */;
+			path = SecureDataStorageApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D19EEE2C1C50884000596EC7 /* Project object */;
+}
