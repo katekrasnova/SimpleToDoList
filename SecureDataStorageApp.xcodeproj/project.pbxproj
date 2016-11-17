@@ -14,6 +14,11 @@
 		D19EEE451C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE431C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld */; };
 		D19EEE471C50884000596EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19EEE461C50884000596EC7 /* Assets.xcassets */; };
 		D19EEE4A1C50884000596EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19EEE481C50884000596EC7 /* LaunchScreen.storyboard */; };
+		D19EEE651C509AC000596EC7 /* TaskMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE5E1C509AC000596EC7 /* TaskMO+CoreDataProperties.m */; };
+		D19EEE661C509AC000596EC7 /* TaskMO.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE601C509AC000596EC7 /* TaskMO.m */; };
+		D19EEE671C509AC000596EC7 /* TaskLogMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE621C509AC000596EC7 /* TaskLogMO+CoreDataProperties.m */; };
+		D19EEE681C509AC000596EC7 /* TaskLogMO.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE641C509AC000596EC7 /* TaskLogMO.m */; };
+		D19EEE6B1C50A23600596EC7 /* PickerViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EEE6A1C50A23600596EC7 /* PickerViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,16 @@
 		D19EEE461C50884000596EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D19EEE491C50884000596EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D19EEE4B1C50884000596EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19EEE5D1C509AC000596EC7 /* TaskMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TaskMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D19EEE5E1C509AC000596EC7 /* TaskMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TaskMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D19EEE5F1C509AC000596EC7 /* TaskMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskMO.h; sourceTree = "<group>"; };
+		D19EEE601C509AC000596EC7 /* TaskMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskMO.m; sourceTree = "<group>"; };
+		D19EEE611C509AC000596EC7 /* TaskLogMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TaskLogMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D19EEE621C509AC000596EC7 /* TaskLogMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TaskLogMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D19EEE631C509AC000596EC7 /* TaskLogMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskLogMO.h; sourceTree = "<group>"; };
+		D19EEE641C509AC000596EC7 /* TaskLogMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskLogMO.m; sourceTree = "<group>"; };
+		D19EEE691C50A23600596EC7 /* PickerViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewHelper.h; sourceTree = "<group>"; };
+		D19EEE6A1C50A23600596EC7 /* PickerViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,14 @@
 		D19EEE2B1C50884000596EC7 = {
 			isa = PBXGroup;
 			children = (
+				D19EEE5D1C509AC000596EC7 /* TaskMO+CoreDataProperties.h */,
+				D19EEE5E1C509AC000596EC7 /* TaskMO+CoreDataProperties.m */,
+				D19EEE5F1C509AC000596EC7 /* TaskMO.h */,
+				D19EEE601C509AC000596EC7 /* TaskMO.m */,
+				D19EEE611C509AC000596EC7 /* TaskLogMO+CoreDataProperties.h */,
+				D19EEE621C509AC000596EC7 /* TaskLogMO+CoreDataProperties.m */,
+				D19EEE631C509AC000596EC7 /* TaskLogMO.h */,
+				D19EEE641C509AC000596EC7 /* TaskLogMO.m */,
 				D19EEE361C50884000596EC7 /* SecureDataStorageApp */,
 				D19EEE351C50884000596EC7 /* Products */,
 			);
@@ -64,6 +87,8 @@
 				D19EEE3B1C50884000596EC7 /* AppDelegate.m */,
 				D19EEE3D1C50884000596EC7 /* ViewController.h */,
 				D19EEE3E1C50884000596EC7 /* ViewController.m */,
+				D19EEE691C50A23600596EC7 /* PickerViewHelper.h */,
+				D19EEE6A1C50A23600596EC7 /* PickerViewHelper.m */,
 				D19EEE401C50884000596EC7 /* Main.storyboard */,
 				D19EEE461C50884000596EC7 /* Assets.xcassets */,
 				D19EEE481C50884000596EC7 /* LaunchScreen.storyboard */,
@@ -153,10 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19EEE6B1C50A23600596EC7 /* PickerViewHelper.m in Sources */,
+				D19EEE671C509AC000596EC7 /* TaskLogMO+CoreDataProperties.m in Sources */,
+				D19EEE661C509AC000596EC7 /* TaskMO.m in Sources */,
 				D19EEE451C50884000596EC7 /* SecureDataStorageApp.xcdatamodeld in Sources */,
 				D19EEE3F1C50884000596EC7 /* ViewController.m in Sources */,
 				D19EEE3C1C50884000596EC7 /* AppDelegate.m in Sources */,
 				D19EEE391C50884000596EC7 /* main.m in Sources */,
+				D19EEE651C509AC000596EC7 /* TaskMO+CoreDataProperties.m in Sources */,
+				D19EEE681C509AC000596EC7 /* TaskLogMO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
